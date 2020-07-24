@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:testing/bootombar.dart';
+import 'package:testing/drawer.dart';
 
 void main() {
   runApp(MyApp());
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: BootomBar(),
+      home: MenuDashboardPage(),
     );
   }
 }
